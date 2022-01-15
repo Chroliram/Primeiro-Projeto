@@ -16,4 +16,6 @@ remoto dará esse erro, devido a necessidade de sincronização das versões. Es
 propósito do Git - ser um gerenciador de versões múltiplas distribuídas(logo precisam estar sincronizadas)
 
 Para isso bastar repetir os passos do ComoIniciarnoGitG/Github
+lembrando de apagar o seu repositório local por completo e 
 usando o git clone "link" novamente e ai sim usando o git commit -m ""
+agora sim podendo modicar o remoto
