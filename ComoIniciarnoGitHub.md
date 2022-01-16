@@ -1,4 +1,4 @@
-### Inicialização simplificada do uso do Git/GitHub ###
+# Inicialização simplificada do uso do Git/GitHub #
 ##
 
 1.  Baixe e instale o Git, em seguida abra o GitBash
@@ -9,7 +9,7 @@
 6.  Novamente no GitBash digite git status para verificar se tem algo novo no repositorio local a ser entregado(commitado) ao remoto
 ##
 
-# Caso não modifique nada no repositório baixado aparecerá a mensagem #
+### Caso não modifique nada no repositório baixado aparecerá a mensagem ###
 
 $ git status
 On branch main
@@ -17,7 +17,7 @@ Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
 
-# Caso modifique algo no repositório baixado aparecerá a mensagem de exemplo #
+### Caso modifique algo no repositório baixado aparecerá a mensagem de exemplo ###
 
 $ git status
 On branch main
@@ -29,15 +29,15 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
   
-##7.  Após isso escreve-se git add . (com auxilio da flag . ou -A) para adicionar tudo que seja novo a seu conjunto de versões do repositório local
-caso digite git status aparecerá
+## 7.  Após isso escreve-se git add . (com auxilio da flag . ou -A) para adicionar tudo que seja novo a seu conjunto de versões do repositório local
+caso digite git status aparecerá ##
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         new file:   Segunda pasta/texto2.txt
 
 
-## 8.  Agora para "Empacotar" o repositorio local para reenvia-lo para o remoto use git commit ##
-Caso seja sua Primeira vez com o Git aparecerá o seguinte aviso de erro
+## 8.  Agora para "Empacotar" o repositorio local para reenvia-lo para o remoto use git commit
+Caso seja sua Primeira vez com o Git aparecerá o seguinte aviso de erro ##
 
 $ git commit
 Author identity unknown
@@ -54,9 +54,8 @@ Omit --global to set the identity only in this repository.
 
 fatal: unable to auto-detect email address (got 'Christian@LAPTOP-DO-CHRIS.(none)')
 
-# Como pedido na descrição do erro, basta adicionar um name e um email ao git config usando as instruções dadas
-
-além disso aparecerá um aviso pedindo que você escreva uma mensagem para o commit #
+### Como pedido na descrição do erro, basta adicionar um name e um email ao git config usando as instruções dadas
+além disso aparecerá um aviso pedindo que você escreva uma mensagem para o commit ###
 
 Please enter the commit message for your changes. Lines starting
 with '#' will be ignored, and an empty message aborts the commit.
@@ -65,8 +64,8 @@ Your branch is up to date with 'origin/main'.
 Changes to be committed:
        new file:   Segunda pasta/texto2.txt
 
-# Para sair dessa tela aperte "ctrl + c" depois disso digite ":qa" aperte enter
-e agora tenha em mente de digitar [git commit -m "uma mensagem de sua autoria que referencia a esse commit"] (usando aspas mesmo) #
+### Para sair dessa tela aperte "ctrl + c" depois disso digite ":qa" aperte enter
+e agora tenha em mente de digitar [git commit -m "uma mensagem de sua autoria que referencia a esse commit"] (usando aspas mesmo) ###
 
   $ git commit -m "adicionando segunda pasta"
 [main e3824c5] adicionando segunda pasta
@@ -81,7 +80,7 @@ Your branch is ahead of 'origin/main' by 1 commit.
 
 nothing to commit, working tree clean
 
-# Agora escreva no GitBash git push origin main #
+### Agora escreva no GitBash git push origin main ###
   
 ## 10 Fim! Dê uma olhada no seu GitHub e Pronto! ##
 
